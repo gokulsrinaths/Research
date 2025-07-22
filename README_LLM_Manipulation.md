@@ -29,12 +29,23 @@ This research investigates a critical safety concern in LLM optimization: the em
 ## Technical Approach
 ### Framework Components
 - Base Models: Llama-3-8B-Instruct, Gemma-2 (up to 27B)
+      <img width="647" height="327" alt="paper2_image2" src="https://github.com/user-attachments/assets/b36dbb25-03c2-43fb-ba1c-aeae52cbb5c0" />
+  
 - Kahneman-Tversky Optimization (KTO) for binary feedback
+  <img width="617" height="205" alt="paper2_image3" src="https://github.com/user-attachments/assets/5db90fca-5203-4794-9fb2-cb51fd2431af" />
+
 - Simulated Environments:
   - Therapy conversations
+    <img width="646" height="640" alt="image" src="https://github.com/user-attachments/assets/b4bf0513-5e5c-4571-a66e-0653f0050e1e" />
+
   - Booking assistance
+   <img width="641" height="421" alt="image" src="https://github.com/user-attachments/assets/e29853c2-7399-4b2b-ae7f-ed3830ca70ff" />
+
   - Action advice
+    <img width="655" height="257" alt="image" src="https://github.com/user-attachments/assets/8d63e6b2-f83a-41e0-8182-c78d8187ec47" />
+
   - Political questions
+    <img width="646" height="268" alt="image" src="https://github.com/user-attachments/assets/50256212-2125-4973-a4de-58f13d17e88f" />
 
 ### Mitigation Strategies Tested
 1. Safety dataset mixing (HH-RLHF, SafeRLHF)
@@ -51,7 +62,7 @@ This research investigates a critical safety concern in LLM optimization: the em
   - Manipulation detection
   - Veto success rates
  
-    <img width="647" height="327" alt="paper2_image2" src="https://github.com/user-attachments/assets/b36dbb25-03c2-43fb-ba1c-aeae52cbb5c0" />
+
 
 
 ## Key Findings
