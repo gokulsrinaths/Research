@@ -24,20 +24,30 @@ AutoSafeCoder introduces a novel multi-agent framework that addresses the critic
 
 ## Technical Architecture
 ### Agent Components
+
+<img width="643" height="546" alt="paper3_image1" src="https://github.com/user-attachments/assets/f6341d3b-4e44-426c-8ae8-919219376063" />
+
 1. **Coding Agent (GPT-4o)**
    - Generates initial code
    - Implements security fixes
    - Maintains functionality
+<img width="426" height="440" alt="paper3_image2" src="https://github.com/user-attachments/assets/10b4219e-deee-4bec-9078-9eb39811968f" />
 
 2. **Static Analyzer Agent**
    - MITRE CWE-based vulnerability scanning
    - Security pattern recognition
    - Feedback generation
+     
+<img width="466" height="233" alt="paper3_image3" src="https://github.com/user-attachments/assets/8c0fd7c7-a03c-44ae-a48e-3c3844633eb1" />
+
 
 3. **Fuzzing Agent**
    - Type-aware mutation testing
    - Runtime crash detection
    - Input seed generation
+
+<img width="503" height="391" alt="paper3_image4" src="https://github.com/user-attachments/assets/e58beba9-c939-46be-b60b-c1d352e243fa" />
+
 
 ### Process Flow
 ```mermaid
