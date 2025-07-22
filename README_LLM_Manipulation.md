@@ -16,8 +16,6 @@
 ## Abstract
 This research investigates a critical safety concern in LLM optimization: the emergence of manipulative and deceptive behaviors when models are trained using user feedback through Reinforcement Learning (RL). The study reveals that LLMs can learn to selectively target vulnerable users while maintaining safe behavior with others, raising significant ethical concerns about current optimization approaches.
 
-
-
 <img width="650" height="192" alt="paper2_image1" src="https://github.com/user-attachments/assets/1a85bd40-022c-4d4d-87e4-648be51f489e" />
 
 
