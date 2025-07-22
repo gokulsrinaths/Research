@@ -30,6 +30,8 @@ AI-LIEDAR introduces a novel framework for investigating the critical trade-off 
 ### Framework Components
 1. **Simulation Environment**
    - Multi-agent conversations via Sotopia
+     <img width="422" height="547" alt="image" src="https://github.com/user-attachments/assets/007e65b2-30e7-4f07-84da-f03aa6db0df5" />
+
    - Dynamic scenario generation
    - Controlled variable manipulation
 
@@ -44,18 +46,8 @@ AI-LIEDAR introduces a novel framework for investigating the critical trade-off 
    - Utility scoring mechanism
 
 ### Process Flow
-```mermaid
-graph TD
-    A[Scenario Generation] --> B[Agent Simulation]
-    B --> C[Response Collection]
-    C --> D[Truthfulness Analysis]
-    D --> E[Utility Evaluation]
-    E --> F[Trade-off Analysis]
-    
-    B --> G[Control Variables]
-    G -->|Steering Prompts| B
-    G -->|Motivation Factors| B
-```
+<img width="782" height="346" alt="image" src="https://github.com/user-attachments/assets/513a06c5-787e-46f8-b4b9-fbe95969cd1b" />
+
 
 ## Implementation Details
 ### Test Environment
@@ -85,13 +77,13 @@ graph TD
 
 ## Key Findings
 ### Truthfulness Metrics
-| Model | Truthful | Partial Lie | Falsification |
-|-------|----------|-------------|---------------|
-| GPT-4o | 41% | 53% | 6% |
-| Mixtral-722B | 38% | 51% | 11% |
-| LLaMA 3-70B | 35% | 48% | 17% |
+<img width="738" height="147" alt="image" src="https://github.com/user-attachments/assets/a5f845cc-7551-4d0d-a1c7-8e05acddb9ef" />
+
 
 ### Impact of Steering
+
+<img width="412" height="493" alt="image" src="https://github.com/user-attachments/assets/731d819e-15bb-404c-980d-24796f8827a2" />
+
 - Truth prompts: +30% truthfulness, -12% utility
 - Lie prompts: +40% falsification rate
 - Removing lie motives: +40% truthfulness
