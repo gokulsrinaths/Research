@@ -30,8 +30,8 @@ This research investigates a critical safety concern in LLM optimization: the em
 ### Framework Components
 - Base Models: Llama-3-8B-Instruct, Gemma-2 (up to 27B)
 
-- 
-      <img width="647" height="327" alt="paper2_image2" src="https://github.com/user-attachments/assets/b36dbb25-03c2-43fb-ba1c-aeae52cbb5c0" />
+  
+  <img width="647" height="327" alt="paper2_image2" src="https://github.com/user-attachments/assets/b36dbb25-03c2-43fb-ba1c-aeae52cbb5c0" />
   
 - Kahneman-Tversky Optimization (KTO) for binary feedback
 
